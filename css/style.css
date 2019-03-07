@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
+    --title-font-color: #222;
+    --text-font-color: #000;
+    --light-font-color: #7a7a7a;
 }
+
+
 
 /* 
 *
@@ -47,6 +52,10 @@ html,body{
 
 }
 
+.nav-link {
+    color: white;
+}
+
 /* 
 *
 * MAIN
@@ -54,15 +63,15 @@ html,body{
  */
 
 .fa-paint-brush {
-    font-size: 40px;
+    font-size: 46px;
     margin-bottom: 20px;
 }
 .fa-tablet-alt {
-    font-size: 40px;
+    font-size: 46px;
     margin-bottom: 20px;
 }
 .fa-cogs {
-    font-size: 40px;
+    font-size: 46px;
     margin-bottom: 20px;
 }
 
@@ -70,14 +79,149 @@ html,body{
     margin-top: 50px;
 }
 
-.margin-space {
-    /* margin-bottom: 50px; */
+.bottom-item {
+    margin-bottom: 10px;
+}
+
+.text-icons {
+    padding: 10px;
+    padding-top: 14px;
+    font-size: 15px;
+}
+
+.title-icons {
+    font-size: 19px;
+}
+
+.margin-icons {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h4 {
+    color: var(--text-font-color) !important;
 }
 
 
+/* 
+*
+* About us
+*
+ */
+
+ .section-grey {
+     background-color: #eeeeee;
+ }
+
+ h2 {
+     color: var(--title-font-color) !important;
+ }
+
+ .light-text {
+     color: var(--light-font-color);
+ }
+
+ .title-text {
+     font-size: 51px;
+ }
+
+ hr {
+     background-color: black;
+     height: 1px !important;
+ }
+
+ 
 
 
 
+ /* 
+ *
+ * CARDS
+ *
+  */
+
+.card-header {
+    background-color: #6068ff !important;
+}
+
+h5 {
+    color: white !important; 
+    letter-spacing: 5px;
+    padding-bottom: 15px;
+}
+
+.price {
+    color: white !important;
+    font-size: 62px;
+}
+
+.price-min {
+    font-size: 18px;
+    vertical-align: text-top;
+
+}
+
+ul {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-left: 24%; */
+}
+
+li {
+    padding: 5px;
+}
+
+.fa-check {
+    color: #6ec1e4;
+}
+
+.card-dimensions {
+    margin-top: 50px;
+    
+}
+
+.height-title {
+    margin-top: 70px;
+}
+
+.margin-services {
+    margin-bottom: 35px;
+}
+
+.card {
+    border-radius: 8px !important;
+}
+
+.card-header {
+    border-radius: 8px 8px 0px 0px !important;
+    box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, .5);
+    padding-top: 25px !important;
+}
+
+.card-body {
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, .5);
+}
+
+.card-pro {
+    /* padding-top: 30px !important; */
+}
+
+.btn-primary {
+    background-color: #61ce70 !important;
+    border-color: #61ce70 !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 10px !important;
+}
+
+.button-dimensions {
+    margin-bottom: 20px;
+}
+
+.cards-fix {
+    margin-bottom: 90px;
+}
 
 
 
@@ -100,4 +244,15 @@ html,body{
         filter: grayscale(100%);
         z-index: 99;
       }  
+
+      .card-dimensions {
+        margin-top: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .margin-icons {
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
 }
