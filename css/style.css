@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 
+*
+* HEADER
+*
+ */
+
+header {
+    position: absolute;
+    /* top: 10px; */
+    color: white !important;
+    z-index: 1;
+    width: 100%;
+}
+
+html,body{
+    margin:0;
+    height:100%;
+}
+
+/* Button Toggler Color */
+/* Button Toggler Color */
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+    border: none;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.image-width {
+  display:block;
+  width:100%; height:100%;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  z-index: 99;
+}  
+
+.image-logo {
+    width: 100px;
+    height: 34px;
+
+}
+
+/* 
+*
+* MAIN
+*
+ */
+
+.fa-paint-brush {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.fa-tablet-alt {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.fa-cogs {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.margin-space {
+    /* margin-bottom: 50px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Querie Header */
+@media (max-width: 576px) {
+    .image-width {
+        display:block;
+        width:100%; height:100%;
+        object-fit: cover;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        z-index: 99;
+      }  
+}
