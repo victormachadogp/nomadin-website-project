@@ -178,6 +178,7 @@ li {
 
 .card-dimensions {
     margin-top: 50px;
+    min-width: 250px;
     
 }
 
@@ -223,6 +224,54 @@ li {
     margin-bottom: 90px;
 }
 
+/* 
+*
+* WHY US
+*
+ */
+
+ .title-text-2 {
+    font-size: 34px;
+}
+
+.subtitle-text {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.fa-thumbs-up {
+    font-size: 43px;
+    color: black;
+    margin-top: 60px;
+}
+
+.fa-dollar-sign {
+    font-size: 43px;
+    color: black;
+    margin-top: 60px;
+}
+
+.check {
+    color: black;
+    font-size: 43px;
+    margin-top: 60px;
+}
+
+.container-us {
+ margin-top: 30px;
+}
+
+.text-padding {
+    padding-top: 30px;
+}
+
+.margin-greybox-2 {
+    padding-bottom: 40px;
+}
+
+.text-us {
+    font-size: 15px;
+}
 
 
 
