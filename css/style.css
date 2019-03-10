@@ -111,6 +111,7 @@ h4 {
 
  .section-grey {
      background-color: #eeeeee;
+
  }
 
  h2 {
@@ -125,10 +126,31 @@ h4 {
      font-size: 51px;
  }
 
+ .title-text-do {
+     font-size: 51px;
+     margin-left: 28%;
+ }
+
+
+
  hr {
      background-color: black;
      height: 1px !important;
  }
+
+ .margin-what {
+    
+ }
+
+ .hr-us {
+     max-width: 38%;
+     margin-left: 62%;
+ }
+
+ .section-left {
+     margin-right: 40%;
+ }
+
 
  
 
@@ -224,6 +246,11 @@ li {
     margin-bottom: 90px;
 }
 
+.services-hr {
+    height: .2px !important;
+    max-width: 15%;
+}
+
 /* 
 *
 * WHY US
@@ -289,6 +316,12 @@ li {
 
 }
 
+
+.contacts-hr {
+    max-width: 7%;
+    height: .5px !important;
+}
+
 /* 
 *
 * FORM
@@ -298,6 +331,16 @@ li {
  .star {
      color: #e20909; 
      font-weight: bold;
+ }
+
+ .form-container {
+     /* margin-left:; */
+     /* margin-right:; */
+     max-width: 70%;
+ }
+
+ .form-control {
+     border-color: black !important;
  }
 
 
@@ -329,4 +372,41 @@ li {
         margin-bottom: 0px;
         margin-top: 10px;
     }
+
+    .form-container {
+        /* margin-left:; */
+        /* margin-right:; */
+        max-width: 97%;
+    }
+
+    .contacts-hr {
+    max-width: 9%;
+    height: .5px !important;
+}
+
+    .margin-what {
+        margin-left: 0px;
+    }
+
+    .hr-us {
+        max-width: 100%;
+        margin-left: 0%;
+    }
+
+    .title-text-do {
+        font-size: 51px;
+        margin-left: 0%;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .hr-us {
+        max-width: 100%;
+        margin-left: 0%;
+    }
+
+
+
 }
